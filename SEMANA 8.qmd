@@ -1,0 +1,26 @@
+---
+title: "PC4"
+author: "ESTEFANY_SALHUANA"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+#CARGANDO LA DATA A TRABAJAR#CA
+
+```{r}
+data<- read_csv("C:/Users/USER/Downloads/dengue.csv")
+```
+
+¿Cómo instalar un paquete en RStudio y realizar un gráfico estadístico (histograma)?
+
+```{r}
+#VISUALIZACIÓN GRAFICA_HISTOGRAMA
+ggplot(data, aes(x = Edad)) +geom_histogram(bins = 30) + theme_minimal()
+
+```

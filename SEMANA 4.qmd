@@ -1,0 +1,22 @@
+---
+title: "PC4"
+author: "ESTEFANY_SALHUANA"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+DESCARGA DE LA DATA
+
+```{r}
+data<- read_csv("C:/Users/USER/Downloads/dengue.csv")
+```
+
+```{r}
+data<- read_csv("C:/Users/USER/Downloads/dengue.csv")
+```
